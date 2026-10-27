@@ -1,0 +1,92 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Production & Build outputs
+/.next/
+/out/
+/build/
+/dist/
+.vercel
+
+# Environment variables & Credentials (SUS / SENSITIVE)
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+!.env.template
+
+# Private keys, certificates, secrets
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+secrets/
+credentials/
+
+# Debug and runtime logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+logs/
+
+# Database dumps, local data & backups
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor configurations
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Testing & Coverage
+/coverage
+/.nyc_output
+
+# TypeScript
+*.tsbuildinfo

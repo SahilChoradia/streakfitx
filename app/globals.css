@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background: #0b1411; color: #e6f0eb; }
+@media print { header { display: none !important; } body { background: #fff; color: #000; } }
